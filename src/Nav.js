@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  background-color: #333;
-  overflow: hidden;
-  text-align: center;
-  display: block;
-  opacity: 0.9;
-`;
+const Link = ({ className, children }) =>
+  <li className={className}>
+    <a href={`/${children.toLowerCase()}`}>
+      {children}
+    </a>
+  </li>;
 
 const StyledLink = styled(Link)`
   display: inline-block;
@@ -15,14 +14,15 @@ const StyledLink = styled(Link)`
   padding: 15px 0px;
   text-decoration: none;
   font-size: 17px;
-`;
+  `;
 
-const Link = ({ className, children }) =>
-  <li className={className}>
-    <a href={`/${children.toLowerCase()}`}>
-      {children}
-    </a>
-  </li>;
+const Wrapper = styled.div`
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  opacity: 0.9;
+`;
 
 class Nav extends Component {
   render() {
