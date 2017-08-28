@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hero from './Hero';
 import Nav from './Nav';
 import './App.css';
 
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
+        <Hero />
       </div>
     );
   }
