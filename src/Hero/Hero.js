@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import portfolioPicture from '../portfolio.JPG';
 import HeroSection from './HeroSection.js';
 import HeroSectionText from './HeroSectionText.js';
-import Nav from '../Nav';
 
 class Hero extends Component {
   render() {
