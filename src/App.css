@@ -17,11 +17,15 @@ a:visited {
 .hero-header {
   font-size: 3em;
   margin: 0;
-  padding-top: 275px;
+  padding-top: 350px;
 }
 
 .hero-sub-header {
   font-size: 1.5em;
+}
+
+.hero-section {
+  position: relative;
 }
 
 .header-nav {
@@ -31,6 +35,10 @@ a:visited {
 
 .nav-holder {
   background-color: #190933;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .about-container {
