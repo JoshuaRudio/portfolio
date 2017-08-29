@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Picture from '../Picture.js';
-import PorfolioPicture from '../portfolio.JPG';
+import Picture from './Picture.js';
+import PorfolioPicture from './portfolio.JPG';
 
 class About extends Component {
   render() {
     return (
-      <div className="about-section">
+      <div className="about-container">
         <h1 className="header">About Me</h1>
         <hr />
         <Picture url={PorfolioPicture} />
