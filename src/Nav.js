@@ -21,10 +21,9 @@ class Nav extends Component {
     return (
       <div className="nav-holder">
         <ul className="header-nav">
-          <StyledLink className="home-link" children="Home" />
-          <StyledLink className="about-link" children="About" />
-          <StyledLink className="projects-link" children="Projects" />
-          <StyledLink className="contact-link" children="Contact" />
+          <StyledLink className="about-link" children="ABOUT" />
+          <StyledLink className="projects-link" children="PROJECTS" />
+          <StyledLink className="contact-link" children="CONTACT" />
         </ul>
       </div>
     );

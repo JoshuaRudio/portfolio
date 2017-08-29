@@ -2,22 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
 a:-webkit-any-link {
   text-decoration: none !important;
 }
@@ -25,17 +9,18 @@ a:-webkit-any-link {
 a,
 a:focus,
 a:active {
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 
 a:visited {
-  color: #fff;
+  color: #333;
 }
 
 .hero-header {
   font-size: 3em;
-  padding-top: 25px;
+  margin: 0;
+  padding-top: 180px;
 }
 
 .hero-sub-header {
@@ -44,19 +29,19 @@ a:visited {
 
 .header-nav {
   margin: 0 auto;
-  padding-top: 15px;
+  padding: 5px 0px;
+}
+
+.about-section {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul li:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: 1px solid gray;
   margin-right: 90px;
   padding-right: 90px;
-}
-
-hr {
-  border-width: 3px;
-  max-width: 70px;
-  margin-top: 20px;
 }
 
 .circular--landscape {

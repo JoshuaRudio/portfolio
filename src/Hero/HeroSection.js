@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import heroPicture from '../guitar.jpg';
+import heroPicture from '../guitar2.jpg';
 
 const HeroSection = styled.div`
-  background: url(${heroPicture}) 40% no-repeat;
+  background: url(${heroPicture}) no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
