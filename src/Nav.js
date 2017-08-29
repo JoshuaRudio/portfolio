@@ -16,25 +16,17 @@ const StyledLink = styled(Link)`
   font-size: 17px;
   `;
 
-const Wrapper = styled.div`
-  background-color: #333;
-  overflow: hidden;
-  text-align: center;
-  display: block;
-  opacity: 0.9;
-`;
-
 class Nav extends Component {
   render() {
     return (
-      <Wrapper>
+      <div className="nav-holder">
         <ul className="header-nav">
           <StyledLink className="home-link" children="Home" />
           <StyledLink className="about-link" children="About" />
           <StyledLink className="projects-link" children="Projects" />
           <StyledLink className="contact-link" children="Contact" />
         </ul>
-      </Wrapper>
+      </div>
     );
   }
 }

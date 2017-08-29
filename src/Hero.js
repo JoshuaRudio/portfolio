@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import Nav from './Nav.js';
 
 const HeroSection = styled.div`
-  background: url("https://static.pexels.com/photos/173921/pexels-photo-173921.png")
-    50% no-repeat;
+  background: url("/public/hero.jpg") 40% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -16,6 +16,7 @@ const HeroSection = styled.div`
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  display: block;
 `;
 
 const HeroSectionText = styled.div`
@@ -27,6 +28,7 @@ class Hero extends Component {
   render() {
     return (
       <HeroSection>
+        <Nav />
         <HeroSectionText>
           <h1 className="hero-header">Joshua A. Rudio</h1>
           <h5 className="hero-sub-header">
