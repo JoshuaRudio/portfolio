@@ -6,7 +6,7 @@ import heroPicture from '../guitar2.jpg';
 const HeroSection = styled.div`
   background: url(${heroPicture}) no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 91vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
