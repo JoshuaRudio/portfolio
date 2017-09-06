@@ -68,15 +68,6 @@ ul li:not(:last-child) {
   margin-left: -70px;
 }
 
-hr {
-  margin: 30px auto;
-  border-width: 3px;
-  border: 0;
-  border-top: 3px solid;
-  max-width: 50px;
-  border-color: #190933;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
