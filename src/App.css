@@ -8,23 +8,24 @@ a:-webkit-any-link {
 
 a,
 a:focus,
-a:active {
-  color: #333;
-  text-decoration: none;
-}
-
+a:active,
 a:visited {
-  color: #333;
+  color: #fff;
+  text-decoration: none;
 }
 
 .hero-header {
   font-size: 3em;
   margin: 0;
-  padding-top: 180px;
+  padding-top: 350px;
 }
 
 .hero-sub-header {
   font-size: 1.5em;
+}
+
+.hero-section {
+  position: relative;
 }
 
 .header-nav {
@@ -32,8 +33,16 @@ a:visited {
   padding: 5px 0px;
 }
 
-.about-section {
-  width: 50%;
+.nav-holder {
+  background-color: #190933;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.about-container {
+  max-width: 50%;
   margin: 0 auto;
   text-align: center;
 }

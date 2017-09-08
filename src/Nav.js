@@ -16,6 +16,15 @@ const StyledLink = styled(Link)`
   font-size: 17px;
   `;
 
+// const Name = styled.div`
+//   float: left;
+//   display: block;
+//   color: red;
+//   position: relative;
+//   bottom: 30px;
+//   margin-left: 20px;
+// `;
+
 class Nav extends Component {
   render() {
     return (
@@ -25,6 +34,7 @@ class Nav extends Component {
           <StyledLink className="projects-link" children="PROJECTS" />
           <StyledLink className="contact-link" children="CONTACT" />
         </ul>
+        {/* <Name>Joshua Rudio</Name> */}
       </div>
     );
   }
