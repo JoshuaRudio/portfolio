@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Hero from './Hero/Hero';
 import About from './About';
 import SocialMedia from './SocialMedia';
+import Projects from './Projects';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Hero className="hero-section" />
         <About className="about-section" />
         <SocialMedia className="social-media" />
+        <Projects className="projects" />
       </div>
     );
   }
