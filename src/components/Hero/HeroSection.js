@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from 'react';
 import styled from 'styled-components';
-import heroPicture from '../guitar2.jpg';
+import heroPicture from '../../img/guitar2.jpg';
 
 const HeroSection = styled.div`
   background: url(${heroPicture}) no-repeat;

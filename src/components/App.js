@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Hero from './Hero/Hero.js';
 import About from './About';
-import './App.css';
+import '../css/App.css';
 
 class App extends Component {
   render() {
