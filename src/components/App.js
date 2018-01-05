@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-import Hero from './Hero/Hero.js';
+import Hero from './Hero/Hero';
 import About from './About';
 import Projects from './Projects';
 import '../css/App.css';
@@ -12,7 +12,8 @@ class App extends Component {
         <Nav className="nav-bar" />
         <Hero className="hero-section" />
         <About className="about-section" />
-        <Projects className="projects-section" />
+        <SocialMedia className="social-media" />
+        <Projects className="projects" />
       </div>
     );
   }
