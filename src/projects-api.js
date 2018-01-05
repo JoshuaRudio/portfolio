@@ -13,7 +13,7 @@ const ProjectAPI = {
     },
     {
       id: 2,
-      title: 'Beandust Esspresso',
+      title: 'Beandust Espresso',
       description: '',
       website: '',
       github: '',

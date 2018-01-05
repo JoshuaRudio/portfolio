@@ -76,3 +76,9 @@ ul li:not(:last-child) {
     transform: rotate(360deg);
   }
 }
+
+.projects-section {
+  width: 45%;
+  margin: 0 auto;
+  background-color: #fff;
+}
